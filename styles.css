@@ -1,0 +1,113 @@
+html {
+  background-color: #D0DCDC;
+  display: flex;
+  color: #2c3531;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
+
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px 10px;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px
+}
+
+a {
+  font-size: 12px;
+  text-align: right;
+}
+
+input {
+  margin: 5px 0px;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: #2c3531;
+  height: 20px;
+  background: none;
+}
+
+input:active, input:focus {
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  width: 150px;
+  align-self: center;
+  color: #14735a;
+  border: 2px solid #14735a;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #D0DCDC;
+}
+
+button:hover, button:focus, button:active {
+  background-color: #14735a;
+  color: white;
+}
+
+#loading{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#spinner {  
+  margin: auto;
+  height: 50px;
+  width: 20px;
+  border-radius: 100%;
+  border: 10px solid;  
+  border-left-color: #14735a;
+  animation: rotate 1000ms infinite linear;
+}
+
+@keyframes rotate { 
+  to {  
+    transform: rotate(1turn) 
+  }
+}
+
+#april-fools {
+  max-width: 350px;
+}
+
+#april-fools {
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+#april-fools h1 {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+}
+
+.contact {
+  text-align: center;
+}
